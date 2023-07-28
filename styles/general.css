@@ -1,0 +1,77 @@
+:root {
+  /* ### Primary */
+
+  --orange: hsl(25, 97%, 53%);
+
+  /* ### Neutral */
+
+  --white: hsl(0, 0%, 100%);
+  --lightGrey: hsl(217, 12%, 63%);
+  --mediumGrey: hsl(216, 12%, 54%);
+  --darkBlue: hsl(213, 19%, 18%);
+  --veryDarkBlue: hsl(216, 12%, 8%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'League Spartan', sans-serif;
+ }
+
+ body {
+  background-color: var(--veryDarkBlue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  height: 100vh;
+}
+
+main {
+  background: radial-gradient(at top, hsl(213, 19%, 22%), hsl(219, 19%, 14%));
+  min-height: 34vh;
+  border-radius: 20px;
+  padding: 22px 22px;
+  width: 432px;
+}
+
+.rating-choice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+
+ .is-toggled {
+  background-color: var(--orange);
+  color: white;
+ }
+
+ .post-rating {
+  width: 150px;
+ }
+
+ .rating-result-container {
+  margin-top: 25px;
+  background-color: hsl(213, 19%, 22%);
+  border-radius: 20px;
+  width: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .rating-result {
+  margin-top: 0;
+  color: rgb(179, 95, 0);
+  font-size: 15px;
+ }
+
+ section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px 5px;
+ }
